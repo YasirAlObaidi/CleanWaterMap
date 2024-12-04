@@ -1,0 +1,57 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .location-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .location-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .details-btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+  }
+  
+  .map-placeholder {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+    .home-layout {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    }
+
+    .map-container {
+    flex: 2;
+    }
+
+    .location-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    }
